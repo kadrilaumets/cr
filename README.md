@@ -33,7 +33,23 @@ muutsin faili /etc//mysql/mariadb.conf.d/50-server.cnf
             LISTEN 0      80          127.0.0.1:3306      0.0.0.0:*
 <img width="718" height="347" alt="image" src="https://github.com/user-attachments/assets/a398a682-774c-4795-b562-44982e992d1c" />
 
-
+Githubist oma anmdebaasi kloonimine:
 
       git --version
       git clone https://github.com/kadrilaumets/cr
+      cd ~/cr/db
+      sudo mariadb -u root
+      CREATE DATABASE cr;
+      EXIT;
+      sudo mariadb -u root cr < cr.sql
+
+Kontroll:
+
+      sudo mariadb -u root
+      USE cr;
+      SHOW TABLES;
+      SELECT * FROM cars LIMIT 5;
+      EXIT;
+      
+<img width="1018" height="490" alt="image" src="https://github.com/user-attachments/assets/056a19c1-e74a-4eb5-97f9-43dcb9304720" />
+
