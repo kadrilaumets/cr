@@ -89,5 +89,3 @@
   </body>
 </html>
 
-git config --global user.email "kadrilaumets@gmail.com"
-  git config --global user.name "kadrilaumets"
