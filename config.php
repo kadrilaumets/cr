@@ -2,8 +2,8 @@
 
 $db_server = 'localhost';
 $db_andmebaas = 'cr';
-$db_kasutaja = 'daki';
-$db_salasona = 'Par00l';
+$db_kasutaja = 'root';
+$db_salasona = '';
 
 $yhendus = mysqli_connect($db_server, $db_kasutaja, $db_salasona, $db_andmebaas);
 

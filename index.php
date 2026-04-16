@@ -69,7 +69,6 @@
         <img src="https://loremflickr.com/400/250/<?php echo $rida['mark']; ?>" class="card-img-top" alt="audi">
         <div class="card-body">
             <h5 class="card-title"><?php echo $rida['mark']." ".$rida['model']; ?></h5>
-            <p><?php echo $rida['year']; ?></p>
             <p>Mootor: <?php echo $rida['engine']; ?></p>
             <p>Kütus: <?php echo $rida['fuel']; ?></p>
             <p>Hind: <?php echo $rida['price']; ?>€/päev</p>
@@ -89,3 +88,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
+
+git config --global user.email "kadrilaumets@gmail.com"
+  git config --global user.name "kadrilaumets"
